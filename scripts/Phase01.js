@@ -25,3 +25,16 @@ if (myAge >= adultAge) {
 else {
   console.log(`You are not an adult. Since you are ${myAge} years old.`);
 }
+
+//Type conversion and Coercion
+//Type Conversion, explicitly converting a value from one data type to another
+let strNumber = "123";
+let num = Number(strNumber);
+console.log(`The string "${strNumber}" has been converted to the number ${num}.`);
+console.log(typeof num);
+
+//Type Coercion, implicitly converting a value from one data type to another
+let str = "The number is: ";
+let coercedResult = str + num;
+console.log(coercedResult);
+console.log(typeof coercedResult);
