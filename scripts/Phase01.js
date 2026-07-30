@@ -38,3 +38,11 @@ let str = "The number is: ";
 let coercedResult = str + num;
 console.log(coercedResult);
 console.log(typeof coercedResult);
+
+//Stric equality comparison
+let a = 10;
+let b = "10";
+console.log(a === b); // false, because the types are different
+
+//Loose equality comparison
+console.log(a == b); // true, because the values are equal after type coercion
