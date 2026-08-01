@@ -55,3 +55,38 @@ console.log(isAdult && hasPermission); // false, because hasPermission is false
 console.log(isAdult || hasPermission); // true, because isAdult is true
 console.log(!isAdult); // false, because isAdult is true
 
+//Switch statement
+let day = 3;
+switch (day) {
+  case 1:
+    console.log("Monday");
+    break;
+  case 2:
+    console.log("Tuesday");
+    break;
+  case 3:
+    console.log("Wednesday");
+    break;
+  case 4:
+    console.log("Thursday");
+    break;
+  case 5:
+    console.log("Friday");
+    break;
+  case 6:
+    console.log("Saturday");
+    break;
+  case 7:
+    console.log("Sunday");
+    break;
+  default:
+    console.log("Invalid day");
+}
+
+//Statements and expressions
+//Statement: A complete unit of execution, like a line of code that performs an action.
+let x = 5; // This is a statement
+//Expression: A piece of code that produces a value.
+let y = 10;
+let sum = x + y; // This is an expression 
+
