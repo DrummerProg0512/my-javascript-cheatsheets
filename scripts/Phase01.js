@@ -90,3 +90,8 @@ let x = 5; // This is a statement
 let y = 10;
 let sum = x + y; // This is an expression 
 
+//Conditional (ternary) operator
+let age = 20;
+let canVote = (age >= 18) ? "Yes, you can vote." : "No, you cannot vote.";
+console.log(canVote);
+
