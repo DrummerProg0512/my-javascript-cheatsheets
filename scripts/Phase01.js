@@ -46,3 +46,12 @@ console.log(a === b); // false, because the types are different
 
 //Loose equality comparison
 console.log(a == b); // true, because the values are equal after type coercion
+
+//Logical operators
+let isAdult = true;
+let hasPermission = false;
+
+console.log(isAdult && hasPermission); // false, because hasPermission is false
+console.log(isAdult || hasPermission); // true, because isAdult is true
+console.log(!isAdult); // false, because isAdult is true
+
