@@ -25,3 +25,16 @@ const multi2 = (a, b) => {
     return result;
 };
 console.log(multi2(4, 6));
+
+// Functions calling other functions ////////////////////////////////////////////
+function square(num) {
+    return num * num;
+}
+
+console.log(square(5));
+
+function callingOtherFunction(num) {
+    const squared = square(num);
+    return `The square of ${num} is ${squared}.`;
+}
+console.log(callingOtherFunction(5));
