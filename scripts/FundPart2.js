@@ -7,10 +7,16 @@ function greet(name) {
     return `Hello, ${name}!`;
 }
 
-// Function expression
+console.log(greet("Cesar Gallardo"));
+
+// Function expression /////////////////////////////////////////////////////////
 const add = function(a, b) {
     return a + b;
 };
 
-// Arrow function
+console.log(add(5, 3));
+
+// Arrow function ///////////////////////////////////////////////////////////////
 const multiply = (a, b) => a * b;
+
+console.log(multiply(4, 6));
