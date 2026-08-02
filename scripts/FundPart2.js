@@ -53,4 +53,26 @@ function sumAll(...numbers) {
 }
 console.log(sumAll(1, 2, 3, 4, 5));
 
+// Introduction to Arrays
+const fruits = ["Apple", "Banana", "Cherry"];
+console.log(fruits);
+console.log(fruits[0]); // Accessing first element
+console.log(fruits.length); // Length of the array
+
+// Arrays with different data types
+const mixedArray = [42, "Hello", true, null, { key: "value" }];
+console.log(mixedArray);
+
+// Arrays with nested arrays
+const nestedArray = [[1, 2], [3, 4], [5, 6]];
+console.log(nestedArray);
+console.log(nestedArray[1][0]); // Accessing element in nested array
+
+// Arrays with variables
+const name = 'Cesar';
+const arrayWithVariables = [name, 42, true];
+console.log(arrayWithVariables);
+
+
+
 
