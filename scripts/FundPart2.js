@@ -38,3 +38,19 @@ function callingOtherFunction(num) {
     return `The square of ${num} is ${squared}.`;
 }
 console.log(callingOtherFunction(5));
+
+// Function with default parameters ////////////////////////////////////////////
+function greetWithDefault(name = "Guest") {
+    return `Hello, ${name}!`;
+}
+
+console.log(greetWithDefault());
+console.log(greetWithDefault("Cesar Gallardo"));
+
+// Function with rest parameters //////////////////////////////////////////////////
+function sumAll(...numbers) {
+    return numbers.reduce((total, num) => total + num, 0);
+}
+console.log(sumAll(1, 2, 3, 4, 5));
+
+
